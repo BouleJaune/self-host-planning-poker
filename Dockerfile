@@ -1,10 +1,10 @@
 FROM docker.io/library/node:lts-slim AS node_builder
 WORKDIR /angular
 COPY angular/ /angular
-RUN npm config set update-notifier false && \
-  npm config set fund false && \
-  npm config set audit false && \
-  npm ci
+RUN npm config set update-notifier false
+RUN npm config set fund false
+RUN npm config set audit false
+RUN npm ci
 RUN npm run build self-host-planning-poker
 
 FROM docker.io/library/python:3.12.3-alpine3.18
