@@ -8,7 +8,6 @@ import { TranslocoDirective } from '@ngneat/transloco';
     selector: 'shpp-player-hand',
     templateUrl: './player-hand.component.html',
     styleUrls: ['./player-hand.component.scss'],
-    standalone: true,
     imports: [TranslocoDirective, NgIf]
 })
 export class PlayerHandComponent {

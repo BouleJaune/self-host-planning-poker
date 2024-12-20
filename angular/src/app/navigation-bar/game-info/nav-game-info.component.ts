@@ -11,7 +11,6 @@ import { TranslocoDirective } from '@ngneat/transloco';
 @Component({
     selector: 'shpp-game-info',
     templateUrl: './nav-game-info.component.html',
-    standalone: true,
     imports: [TranslocoDirective, NgIf, NgbTooltip, GameFormComponent]
 })
 export class NavGameInfoComponent implements OnDestroy {

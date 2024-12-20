@@ -6,10 +6,9 @@ import { NavAppTitleComponent } from '../navigation-bar/app-title/nav-app-title.
 import { TranslocoDirective } from '@ngneat/transloco';
 
 @Component({
-  standalone: true,
-  selector: 'shpp-set-username-page',
-  templateUrl: './set-username-page.component.html',
-  imports: [TranslocoDirective, PlayerNameFormComponent, ContainerComponent, NavAppTitleComponent]
+    selector: 'shpp-set-username-page',
+    templateUrl: './set-username-page.component.html',
+    imports: [TranslocoDirective, PlayerNameFormComponent, ContainerComponent, NavAppTitleComponent]
 })
 export default class SetUsernamePageComponent implements OnInit {
   gameId?: string;

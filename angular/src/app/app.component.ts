@@ -8,7 +8,6 @@ import { ToastsContainerComponent } from './shared/toast/toast-container.compone
     selector: 'shpp-root',
     templateUrl: './app.component.html',
     styles: [],
-    standalone: true,
     imports: [RouterOutlet, ToastsContainerComponent]
 })
 export class AppComponent {

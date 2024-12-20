@@ -11,7 +11,6 @@ import { TranslocoDirective } from '@ngneat/transloco';
     selector: 'shpp-card-table',
     templateUrl: './card-table.component.html',
     styleUrls: ['./card-table.component.scss'],
-    standalone: true,
     imports: [TranslocoDirective, NgFor, PlayerHandComponent, KeyValuePipe]
 })
 export class CardTableComponent implements OnDestroy {

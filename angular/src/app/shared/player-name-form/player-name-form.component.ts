@@ -7,7 +7,6 @@ import { debounceTime, Subject, Subscription } from "rxjs";
 @Component({
     selector: 'shpp-player-name-form',
     templateUrl: './player-name-form.component.html',
-    standalone: true,
     imports: [TranslocoDirective, ReactiveFormsModule]
 })
 export class PlayerNameFormComponent implements OnDestroy {

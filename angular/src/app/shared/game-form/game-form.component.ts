@@ -5,10 +5,9 @@ import { NgFor } from '@angular/common';
 import { TranslocoDirective } from '@ngneat/transloco';
 
 @Component({
-  standalone: true,
-  selector: 'shpp-game-form',
-  templateUrl: './game-form.component.html',
-  imports: [TranslocoDirective, NgFor, ReactiveFormsModule]
+    selector: 'shpp-game-form',
+    templateUrl: './game-form.component.html',
+    imports: [TranslocoDirective, NgFor, ReactiveFormsModule]
 })
 export class GameFormComponent implements OnInit{
 

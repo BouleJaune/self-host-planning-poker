@@ -12,7 +12,6 @@ import { QrCodeModalContentComponent } from "./qr-code-modal-content/qr-code-mod
 @Component({
     selector: 'shpp-game-name',
     templateUrl: './nav-game-name.component.html',
-    standalone: true,
     imports: [TranslocoDirective, NgIf, NgbTooltip]
 })
 export class NavGameNameComponent implements OnDestroy {

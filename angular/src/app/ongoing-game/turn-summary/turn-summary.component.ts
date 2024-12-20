@@ -12,7 +12,6 @@ import { TranslocoDirective } from '@ngneat/transloco';
     selector: 'shpp-turn-summary',
     templateUrl: './turn-summary.component.html',
     styleUrls: ['./turn-summary.component.scss'],
-    standalone: true,
     imports: [TranslocoDirective, NgFor, NgClass, AsyncPipe, KeyValuePipe, TranslocoDecimalPipe, TranslocoPercentPipe]
 })
 export class TurnSummaryComponent implements AfterViewInit, OnDestroy {
