@@ -52,7 +52,7 @@
     "@types/qrcode": "^1.5.5",
     "@typescript-eslint/eslint-plugin": "^8.25.0",
     "@typescript-eslint/parser": "^8.18.1",
-    "eslint": "^8.57.0",
+    "eslint": "^9.34.0",
     "eslint-plugin-unused-imports": "^4.1.4",
     "jasmine-core": "~4.6.0",
     "karma": "~6.4.2",
